@@ -77,3 +77,30 @@ Commit types (e.g. `feat`, `fix`, `refactor`, `style`) are important because the
 ## Workflow
 
 We use GitHub to manage our workflow. Each task is represented by an issue. Be sure to connect any PR you are working on to the appropriate issue, [following the instructions from GitHub on how to do so](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
+
+
+## Starting A New Project
+
+Make sure to cover everything in the following sections when you are starting a new project & reference this section by creating a discussion thread when starting new projects.
+
+- Read available documentation
+- Set up the repository / codebase locally with database and environment variables
+- Use the whole product from a user’s perspective and understand its features
+- Look into the test cases for the features, as they can be a great source of documentation
+- For back-end repositories make calls to their APIs understanding request & response structure
+- For front-end repositories run the corresponding back-end repositories & find out the features by how - they interact with one another
+- Create a Data-Flow-Diagram of the application of your understanding of the system and discuss with other team members
+- If there are still some parts of them system that you do not understand, focus on what is known rather than what is unknown & check the names of the developers who has worked on that part of the system.
+- Check and ask clarifying questions:
+  - Check if you have required permissions in order to accomplish what is being requested.
+  - Check if you have everything required in order to perform the task and ask about what you're missing / you'll need.
+  - Check if you have all test environments, production environments. in case of having no access to test environments ask if it's okay to post to production in case of debugging any issue.
+  - In case of the project not having any repository within the organization, check the following list:
+    - Does the request needs to have a repository set up right now or can we create one later after completing some of the current tasks at hand? pick up an accurate name for the repository and ask for it to be set up with proper organizational access.
+    - Does it need Dev Ops to be set up right now or can we set it up later without stalling the current progress? if requests are small, let everyone know you are making the changes in the production and ask for the Dev Ops to be created later without stalling progress.
+- Create discussion threads and ask specific questions with [code references](https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files) & questions should include specific contexts in order:
+  - Problem
+  - Why it’s a problem
+  - What you’ve done to attempt to solve it
+  - What you think could solve it
+  - What you are asking to do
