@@ -106,17 +106,18 @@ Make sure to cover everything in the following sections when you are starting a 
   - What you are asking to do
 
 
-## When looking for alternatives
+## Making Effective Decisions
 
-Things to consider and ask yourself when looking for alternate approaches to anything.
+Things to consider and ask yourself when deciding for approaches.
 
-- What are some problems with current approach?
-- Does the alternate approach solve problems we have?
-- What is the complexity of the alternate approach?
-  - Amount of time it may require to implement the alternate approach.
+- Why it's a problem? (Think from a user's perspective and what they want to do)
+- What needs to be done to solve this problem?
+- What are all the approaches to solve? (Do not proceed with the first thing that comes to mind)
+- What is the complexity of the approaches?
+  - Amount of time it may require to implement the approaches.
   - Consider mental overhead as well.
-- How better are the results when compared with current approach?
-- What are the other issues that may arise with alternate approach?
+- How better are the results when compared with each approaches?
+- What are the other issues that may arise with the approaches?
   - Potential issues such as effects on other parts of app, third party tools, performance etc.
-- Will we lose anything that we currently have when using a particular alternative?
+- Will we lose anything that we currently have when using a particular approach?
   - Look for compromises.
