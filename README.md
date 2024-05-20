@@ -76,8 +76,15 @@ Commit types (e.g. `feat`, `fix`, `refactor`, `style`) are important because the
 
 ## Workflow
 
-We use GitHub to manage our workflow. Each task is represented by an issue. Be sure to connect any PR you are working on to the appropriate issue, [following the instructions from GitHub on how to do so](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
+We use GitHub & Zenhub to manage our workflow. Each task is represented by an issue. Be sure to connect any PR you are working on to the appropriate issue, [following the instructions from GitHub on how to do so](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
 
+- When you start working on an issue, assign it to yourself & place it in the "In Progress" swimlane in Zenhub.
+- When it's ready for review, move it to the "Needs Review" swimlane & post it in Slack with a link to the PR.
+- When it's been reviewed and is ready to be merged, move it to the "Ready to Merge" swimlane and ask in Slack to merge it.
+- Tasks that are not being worked on should be in the "Backlog" swimlane.
+- Tasks on hold should be in the "Icebox" swimlane.
+- Tasks that require multiple issues should be created as an Epic in Zenhub & all issues and PRs should be linked to it. [Zenhub's Epic Management](https://help.zenhub.com/support/solutions/articles/43000010341-an-intro-to-epics-in-zenhub).
+- All PRs should be connected properly to the issue they are solving. [Zenhub's Issue and PR Connections to do so](https://help.zenhub.com/support/solutions/articles/43000615530-zenhub-s-issue-and-pr-connections).
 
 ## Starting A New Project
 
