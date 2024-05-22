@@ -86,45 +86,10 @@ We use GitHub & Zenhub to manage our workflow. Each task is represented by an is
 - Tasks that require multiple issues should be created as an Epic in Zenhub & all issues and PRs should be linked to it. [Zenhub's Epic Management](https://help.zenhub.com/support/solutions/articles/43000010341-an-intro-to-epics-in-zenhub).
 - All PRs should be connected properly to the issue they are solving. [Zenhub's Issue and PR Connections to do so](https://help.zenhub.com/support/solutions/articles/43000615530-zenhub-s-issue-and-pr-connections).
 
-## Starting A New Project
+## Initiating a New Project
 
-Make sure to cover everything in the following sections when you are starting a new project & reference this section by creating a discussion thread when starting new projects.
+See the [Initiating a New Project](docs/guides/initiating-a-new-project.md) guide for a comprehensive guide for all of the preliminary steps to take when initiaing a new project.
 
-- Read available documentation
-- Set up the repository / codebase locally with database and environment variables
-- Use the whole product from a user’s perspective and understand its features
-- Look into the test cases for the features, as they can be a great source of documentation
-- For back-end repositories make calls to their APIs understanding request & response structure
-- For front-end repositories run the corresponding back-end repositories & find out the features by how - they interact with one another
-- Create a Data-Flow-Diagram of the application of your understanding of the system and discuss with other team members
-- If there are still some parts of them system that you do not understand, focus on what is known rather than what is unknown & check the names of the developers who has worked on that part of the system.
-- Check and ask clarifying questions:
-  - Check if you have required permissions in order to accomplish what is being requested.
-  - Check if you have everything required in order to perform the task and ask about what you're missing / you'll need.
-  - Check if you have all test environments, production environments. in case of having no access to test environments ask if it's okay to post to production in case of debugging any issue.
-  - In case of the project not having any repository within the organization, check the following list:
-    - Does the request needs to have a repository set up right now or can we create one later after completing some of the current tasks at hand? pick up an accurate name for the repository and ask for it to be set up with proper organizational access.
-    - Does it need Dev Ops to be set up right now or can we set it up later without stalling the current progress? if requests are small, let everyone know you are making the changes in the production and ask for the Dev Ops to be created later without stalling progress.
-- Create discussion threads and ask specific questions with [code references](https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files) & questions should include specific contexts in order:
-  - Problem
-  - Why it’s a problem
-  - What you’ve done to attempt to solve it
-  - What you think could solve it
-  - What you are asking to do
+## Planning a Project
 
-
-## Making Effective Decisions
-
-Things to consider and ask yourself when deciding for approaches.
-
-- Why it's a problem? (Think from a user's perspective and what they want to do)
-- What needs to be done to solve this problem?
-- What are all the approaches to solve? (Do not proceed with the first thing that comes to mind)
-- What is the complexity of the approaches?
-  - Amount of time it may require to implement the approaches.
-  - Consider mental overhead as well.
-- How better are the results when compared with each approaches?
-- What are the other issues that may arise with the approaches?
-  - Potential issues such as effects on other parts of app, third party tools, performance etc.
-- Will we lose anything that we currently have when using a particular approach?
-  - Look for compromises.
+See the [Planning a Project](docs/planning/0001-dev-planning-docs.md) for planning any project which requires more than a few hours of work.
