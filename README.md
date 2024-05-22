@@ -93,3 +93,7 @@ See the [Initiating a New Project](docs/guides/initiating-a-new-project.md) guid
 ## Planning a Project
 
 See the [Planning a Project](docs/planning/0001-dev-planning-docs.md) for planning any project which requires more than a few hours of work.
+
+## Effective Engineering
+
+See the [Effective Engineering](docs/guides/effective-engineering.md) guide & use those principles wisely when working on projects.

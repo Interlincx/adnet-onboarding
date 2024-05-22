@@ -57,3 +57,11 @@ Questions should include specific contexts in the following order:
 - Create a new repository with the following naming convention: 
   - Front-end: `adnet-$projectName-static`
   - Back-end: `adnet-$projectName`
+
+  ## Follow Principles
+
+  See [Effective Engineering](/docs/guides/effective-engineering.md) & follow the principles mentioned in the document.
+
+  ## Planning Document
+
+  Create a planning document before delving into working [Planning Document](/docs/planning/0001-dev-planning-docs.md) & follow the structure mentioned in the document.
