@@ -74,6 +74,10 @@ Commit types (e.g. `feat`, `fix`, `refactor`, `style`) are important because the
 
 **Style** commits need the least amount of scrutiny. They tend to be very repetive (converting from snake_case to camelCase, standardizing indentation, or changing newlines). These changes will have no functional impact on the code and any existing tests should be sufficient.
 
+## Operations
+
+Prevent issues from being solvable only on operations if it can be solved in code, when discussing operations ping the concerning team / person in charge of developer operations.
+
 ## Workflow
 
 We use GitHub & Zenhub to manage our workflow. Each task is represented by an issue. Be sure to connect any PR you are working on to the appropriate issue, [following the instructions from GitHub on how to do so](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
